@@ -1,9 +1,37 @@
 jpp coder sans un petit txt 
 donc vla 
 
+le projet ca va etre une plateforme qui va cpermettre aux utilisateurs de creer des platos de jeux de roles
+
+ils vont pourvoir d'abord creer une map a leur image en placant tel ou tel chose ici ou la puis il vont pouvoir y jouer
+avec 1 maitre du jeux qui bouge les personnages et cie
+et les joueurs qui seront "spectateurs" et qui lanceront leurs dés 
+
+si on arrive a pousser le truc un peu loin on pourrai faire un systeme de Modeles ou de maps en ligne ou jsp quoi qu'on peut utiliser
+
+pour commencer je pense qu' je v partir sur les case 
+vu que le plateau c un tableau on as des cases
+les cases vont pouvoir etre de differents types
+on peu avoir :
+des chemins, du decor, des combats, des coffres etc...
+(peut etre aussi des pnj ca peut etre interessant, et meme des leux comme auberge ou voir des entrées de donjon )
 
 
+les cases peuvent ou non etre marchées et peuvent aussi etre interactive dans le sens ou eles peuvent produire des evenements
+l'exemple tout bete que j'ai la mtn c'est un lancer de dé 
 
+bref avec cette base g cette vision :
+
+abstract case : aller sur case()
+
+decor extends case  : aller sur case () { X }
+chemin extends case
+coffre extends case : recup loot ()
+combat extends case : ptit anim de combat ()
+caseChance extends case : lancer dé () 
+
+
+ensuite je pourrait au choix faire le plateau de jeu ou les personnages joueurs
 
 
 
