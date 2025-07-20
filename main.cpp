@@ -35,6 +35,7 @@
 //------------------------------------------------------------------------------------
 
 #include <iostream> 
+#include "header/case.h"
 
 using namespace std ;
 
