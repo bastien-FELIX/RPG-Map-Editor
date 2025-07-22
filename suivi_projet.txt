@@ -24,8 +24,9 @@ bref avec cette base g cette vision :
 
 abstract case : aller sur case()
 
-decor extends case  : aller sur case () { X }
-chemin extends case
+decor extends case  : aller sur case () { X }  // on peut pas marcher sur le decor  
+chemin extends case // il as des voisin enregistrs dans un tableau 
+// il peut en avoir max 4 un par direction
 coffre extends case : recup loot ()
 combat extends case : ptit anim de combat ()
 caseChance extends case : lancer dé () 

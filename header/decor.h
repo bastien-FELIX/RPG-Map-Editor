@@ -1,20 +1,28 @@
 
 
 #include "case.h"
+#include <iostream> 
 using namespace std ;
 
 class Decor : Case 
-{
+{   
 
 
 private:
     /* data */
 
 public:
-    Decor(/* args */);
-    Decor(string type) ;
+    string objet ;
+    Decor(){}
+    Decor(string typeDec) {
+        nom = typeDec ;
+        description = "c un decor de "+typeDec ;
+    }
     bool marcherSur () {return false ;}
-    ~Decor();
+    ~Decor() {}
+    string ptitDescrip() {
+        return nom + "\n"+ description + " ";
+    }
 
 
 };

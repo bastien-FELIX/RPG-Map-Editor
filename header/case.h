@@ -11,15 +11,15 @@ class  Case  {
 private:
     /* data */
 
-public:
+protected:
     
     string nom ;
     string description ;
-    virtual bool marcherSur() {return false ;}
 
-protected :
-    Case(/* args */);
-    ~Case();
+public :
+    Case(/* args */){} ;
+    ~Case() {}
+    virtual bool marcherSur() {return false ;}
 
 
 };

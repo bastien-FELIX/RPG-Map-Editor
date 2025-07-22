@@ -35,14 +35,16 @@
 //------------------------------------------------------------------------------------
 
 #include <iostream> 
-#include "header/case.h"
+#include "header/decor.h"
 
 using namespace std ;
 
 int main(void) {
 
     //test();
-    cout << "hello world" ;
+    Decor foret ("foret");
+    cout << foret.ptitDescrip() << endl ;
+    cout << "hello world" << endl ;
 
     return 0;
 }
