@@ -34,6 +34,19 @@ caseChance extends case : lancer dé ()
 
 ensuite je pourrait au choix faire le plateau de jeu ou les personnages joueurs
 
+pour l'instant j'ai fait les bases des cases abstraites
+des decors
+et des chemins
 
+pour les decors il me faudra des mdeles a charger avec un nom
+et pour les chemins il leur manque nom et descip
 
+je pense au cas d'un carrefour / d'une intersection 
+pour ca OU je fait que le nom de route est un tableau 
+OU je fait une nouvelle classe (l'abus) qui hrite de chemin et qui elle a plusieures routes
+et une gestion de voisins plus complete avec notement l'idée qu'un chemin normal n'as que max 2voisins mais peut etre un virage donc qd mm NSEO
+
+NICE les chemins simples sont assez complets en thermes d efonctions et cie ptet des ptits getteurs setteurs mais sinon on est bien
+
+Prochaine etape c les intersection
 

@@ -35,7 +35,7 @@
 //------------------------------------------------------------------------------------
 
 #include <iostream> 
-#include "header/decor.h"
+#include "header/chemin.h"
 
 using namespace std ;
 
@@ -44,7 +44,11 @@ int main(void) {
     //test();
     Decor foret ("foret");
     cout << foret.ptitDescrip() << endl ;
-    cout << "hello world" << endl ;
+    Chemin unPtitCheminEsseuler ("route de nullepart",1, 'N', 'P') ;
+    cout << unPtitCheminEsseuler.ptitDescrip() << endl ;
 
     return 0;
 }
+
+
+

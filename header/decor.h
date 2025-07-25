@@ -12,7 +12,7 @@ private:
     /* data */
 
 public:
-    string objet ;
+
     Decor(){}
     Decor(string typeDec) {
         nom = typeDec ;
