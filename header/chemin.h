@@ -7,7 +7,7 @@ using namespace std ;
 class Chemin : Case 
 {   
 
-private:
+protected :
     /* data */
     bool voisin [4] ;
     // les chemins dan les dirrections cardnales
@@ -62,29 +62,24 @@ public:
 
         if (voisin[0]) {
             voiVoisins += "au Nord - " ;
-            vsn = true ;
-        }
+            vsn = true ;}
 
         if (voisin[1]) {
             voiVoisins += "au Sud - " ;
-            vsn = true ;
-        }
+            vsn = true ;}
 
         if (voisin[2]) {
             voiVoisins += "a l'Est - " ;
-            vsn = true ;
-        }
+            vsn = true ;}
 
         if (voisin[3]) {
             voiVoisins += "a l'Ouest - " ;
-            vsn = true ;
-        }
+            vsn = true ;}
 
         if (vsn ) {
             return  voiVoisins ;
         }else {
-            return "un petit bout de chemin isolé, éseulé, rejeté :,( " ;
-        }
+            return "un petit bout de chemin isolé, éseulé, rejeté :,( " ;}
         
 
     }
@@ -137,6 +132,8 @@ public:
         return false ;
 
     }
+    string getRoute() {return route ;}
+
 
 };
 

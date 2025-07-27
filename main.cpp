@@ -35,7 +35,7 @@
 //------------------------------------------------------------------------------------
 
 #include <iostream> 
-#include "header/chemin.h"
+#include "header/intersection.h"
 
 using namespace std ;
 
