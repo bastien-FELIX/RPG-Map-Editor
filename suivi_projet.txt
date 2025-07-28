@@ -20,6 +20,8 @@ des chemins, du decor, des combats, des coffres etc...
 
 -- LES CASES :
 
+JE PENSE QUE JE V LEUR AJOUTER DES COORDON2ES MAIS JSP PAS SUR 
+
 les cases peuvent ou non etre marchées et peuvent aussi etre interactive dans le sens ou eles peuvent produire des evenements
 l'exemple tout bete que j'ai la mtn c'est un lancer de dé 
 

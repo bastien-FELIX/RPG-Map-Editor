@@ -46,14 +46,18 @@ int main(void) {
     cout << foret.ptitDescrip() << endl ;
     Chemin unPtitCheminEsseuler ("route de nullepart",1, 'N', 'P') ;
     cout << unPtitCheminEsseuler.ptitDescrip() << endl ;
-
-    Chemin* voisinsInter[4] = {nullptr,nullptr,nullptr,nullptr} ;
-    voisinsInter[1] = &unPtitCheminEsseuler ;
-    Intersection zeitou ("route de nullepart",2, 'S','S', voisinsInter ) ;
+    Chemin unCheminrelou ("route de par ici",3, 'O', 'P') ;
+    Chemin* voisinsInter[4] = {nullptr,&unPtitCheminEsseuler,&unCheminrelou,nullptr} ;
+    Intersection zeitoun ("route de nullepart",2, 'S','E', voisinsInter ) ;
 
     cout << "descip" << endl ;
-    cout << zeitou.ptitDescrip() << endl  ;
+    cout << zeitoun.ptitDescrip() << endl  ;
+    cout << "version panneau" << endl ;
+    cout << zeitoun.indicRoutes(&unCheminrelou) ;
+    vector<string> test = zeitoun.autresRoutes("route de nullepart") ;
 
+    // c pour peut etre faire des coordonées en 1 float plutot que 2 int
+    cout << ((int) 13.60)+1 ;
 
     return 0;
 }
