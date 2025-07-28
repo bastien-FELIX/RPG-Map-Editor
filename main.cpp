@@ -47,6 +47,14 @@ int main(void) {
     Chemin unPtitCheminEsseuler ("route de nullepart",1, 'N', 'P') ;
     cout << unPtitCheminEsseuler.ptitDescrip() << endl ;
 
+    Chemin* voisinsInter[4] = {nullptr,nullptr,nullptr,nullptr} ;
+    voisinsInter[1] = &unPtitCheminEsseuler ;
+    Intersection zeitou ("route de nullepart",2, 'S','S', voisinsInter ) ;
+
+    cout << "descip" << endl ;
+    cout << zeitou.ptitDescrip() << endl  ;
+
+
     return 0;
 }
 

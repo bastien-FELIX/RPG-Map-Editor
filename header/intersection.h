@@ -1,6 +1,6 @@
 #include "chemin.h"
 
-class Intersection : Chemin {
+class Intersection : public Chemin {
 
 
 public :

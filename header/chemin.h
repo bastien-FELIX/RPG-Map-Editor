@@ -4,7 +4,7 @@
 
 using namespace std ;
 
-class Chemin : Case 
+class Chemin : public Case 
 {   
 
 protected :
@@ -81,8 +81,9 @@ public:
         }else {
             return "un petit bout de chemin isolé, éseulé, rejeté :,( " ;}
         
-
     }
+
+
     string getVoisin () {
         string value ;
 
