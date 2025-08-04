@@ -14,10 +14,7 @@ private:
 public:
 
     Decor(){}
-    Decor(string typeDec) {
-        nom = typeDec ;
-        description = "c un decor de "+typeDec ;
-    }
+    Decor(string typeDec) ;
     bool marcherSur () {return false ;}
     ~Decor() {}
     string ptitDescrip() {

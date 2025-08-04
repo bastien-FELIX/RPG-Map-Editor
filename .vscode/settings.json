@@ -1,6 +1,10 @@
 {
     "files.associations": {
         "__config": "cpp",
-        "__nullptr": "cpp"
+        "__nullptr": "cpp",
+        "string": "cpp",
+        "iosfwd": "cpp",
+        "*.m": "cpp",
+        "iostream": "cpp"
     }
 }

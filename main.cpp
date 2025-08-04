@@ -55,9 +55,9 @@ int main(void) {
     cout << "version panneau" << endl ;
     cout << zeitoun.indicRoutes(&unCheminrelou) ;
     vector<string> test = zeitoun.autresRoutes("route de nullepart") ;
-
+    
     // c pour peut etre faire des coordonées en 1 float plutot que 2 int
-    cout << ((int) 13.60)+1 ;
+    cout << ((int) 13.60) ;
 
     return 0;
 }
