@@ -35,4 +35,33 @@ vector<string> Intersection::autresRoutes(string rte ) {
     return routes ;
 }
 
+string Intersection::indicRoutes() {
+
+    string paneau ;
+    
+    if (voisin[0] ) {
+        paneau += "NORD : "+ sorties[0]->getRoute()+"\n" ;}
+
+    if (voisin[1] ) {
+        paneau += "SUD : "+ sorties[1]->getRoute()+"\n" ;}
+
+    if (voisin[2] ) {
+        paneau += "EST : "+ sorties[2]->getRoute()+"\n" ;}
+
+    if (voisin[3]) {
+        paneau += "OUEST : "+ sorties[3]->getRoute()+"\n" ;}
+
+    return paneau ;
+}
+
+
+string Intersection::ptitDescrip() {
+
+    string result = "Intersection entre les chemins :\n" ;
+    result += indicRoutes() ;
+    return result ;
+
+}
+
+
 

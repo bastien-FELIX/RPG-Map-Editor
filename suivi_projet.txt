@@ -57,6 +57,10 @@ Prochaine etape c les intersection
 yo g attaqué 
 je pense que pour l'indicRoutes on peut prendre en paramettre la direction de laquelle on arrive ou peut etre le ptr sur chem
 
+re ici moi apres maladie j'ai fait les cpp et j'ai bientot fini les inter 
+je pense que la dessus un truc a ameliorer c les autres routes
+faire par rapport au chemin pas a la route car une route part d'un coter et repart de l'autre
+
 
 -- IDEES FONCIONNEMENT :
 
