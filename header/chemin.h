@@ -34,27 +34,7 @@ public:
     bool marcherSur () {return true ;}
     ~Chemin() {}
     string ptitDescrip() ;
-    string getVoisin () {
-        string value ;
-
-        if (voisin[0]) {
-            value += "N" ;
-        }
-
-        if (voisin[1]) {
-            value += "S" ;
-        }
-
-        if (voisin[2]) {
-            value += "E" ;
-        }
-
-        if (voisin[3]) {
-            value += "O" ;
-        }
-
-        return value ;
-    }
+    string getVoisin () ;
     bool ajoutVoisin(char vois1) ;
 
     bool ajoutVoisin(string newRoute, char vois1) ;

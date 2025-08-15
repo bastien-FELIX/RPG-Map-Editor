@@ -34,7 +34,8 @@
 //------------------------------------------------------------------------------------
 
 #include <iostream> 
-#include "header/intersection.h"
+#include "header/route.h"
+
 //#include "src/test.cpp"
 
 using namespace std ;
@@ -53,8 +54,8 @@ int main(void) {
     cout << "descip" << endl ;
     cout << zeitoun.ptitDescrip() << endl  ;
     cout << "version panneau" << endl ;
-    cout << zeitoun.indicRoutes(&unCheminrelou) ;
-    vector<string> test = zeitoun.autresRoutes("route de nullepart") ;
+    cout << zeitoun.indicRoutes(nullptr) ;
+    // vector<string> test = zeitoun.autresRoutes() ;
     
     // c pour peut etre faire des coordonées en 1 float plutot que 2 int
     cout << ((int) 13.60) ;

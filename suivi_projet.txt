@@ -61,6 +61,17 @@ re ici moi apres maladie j'ai fait les cpp et j'ai bientot fini les inter
 je pense que la dessus un truc a ameliorer c les autres routes
 faire par rapport au chemin pas a la route car une route part d'un coter et repart de l'autre
 
+bah en fait bg ca c une autre fonction mais enfin bref
+
+
+OK voila je pense qu'on en a fini avec les intersections
+je v m'atker aux routes et enfin on poura faire le plato 
+ca avance deja plutot bien on aura bientot le decor/environement de base
+que la base mais quand meme
+
+toi qui lis ca si c pas deja fait 
+fait un constructeur d'Intersection qui se base sur un chemin 
+pour une promotion en gros
 
 -- IDEES FONCIONNEMENT :
 
@@ -68,5 +79,6 @@ je pense faire un genre de classe route ou qqc comme ca c'est plus ou moins une 
 et donc l'idee en gros c que dans la classe du plateau plutot que d'avoir des centaines de pointeurs sur chemins triés plus ou moins bien 
 (le bordel) on aurai plutot une liste de routes avec un ptit tableau de chemins seuls genre max 10 chemins sans route
 
-
+la classe plato aura quand mem pour role de traiter les cas de placement de chemin 
+par exmple quand on place un chemin entre deux autres il faut faire le lien et creer une route dessus si yen a oas deja une 
 

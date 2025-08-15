@@ -86,6 +86,27 @@ bool Chemin::ajoutVoisin(string newRoute, char vois1) {
 
 }
 
+string Chemin::getVoisin () {
+    
+    string value ;
 
+    if (voisin[0]) {
+        value += "N" ;
+    }
+
+    if (voisin[1]) {
+        value += "S" ;
+    }
+
+    if (voisin[2]) {
+        value += "E" ;
+    }
+
+    if (voisin[3]) {
+        value += "O" ;
+    }
+
+    return value ;
+}
 
 

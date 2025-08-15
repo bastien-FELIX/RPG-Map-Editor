@@ -23,7 +23,7 @@ endif()
 
 # Our Project
 
-add_executable(${PROJECT_NAME} main.cpp src/chemin.cpp src/decor.cpp src/intersection.cpp )
+add_executable(${PROJECT_NAME} main.cpp src/chemin.cpp src/decor.cpp src/intersection.cpp src/route.cpp )
 #set(raylib_VERBOSE 1)
 target_link_libraries(${PROJECT_NAME} raylib)
 

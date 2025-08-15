@@ -27,7 +27,7 @@ public :
     string indicRoutes () ;
     string ptitDescrip() ;
 
-    vector<string> autresRoutes(string rte ) ; 
+    vector<string> autresRoutes(Chemin* arriver) ; 
 
 private :
 

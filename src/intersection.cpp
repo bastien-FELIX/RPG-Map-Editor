@@ -5,7 +5,7 @@ string Intersection::indicRoutes (Chemin* origine) {
 
     string paneau = "vous etes sur la route : "+ origine->getRoute() + "\n" ;
     paneau += "voici les directions possibles \n" ;
-
+    
     if (voisin[0] && sorties[0] != origine && origine != nullptr) {
         paneau += "NORD : "+ sorties[0]->getRoute()+"\n" ;}
 
@@ -21,13 +21,15 @@ string Intersection::indicRoutes (Chemin* origine) {
     return paneau ;
 } 
 
-vector<string> Intersection::autresRoutes(string rte ) {
+vector<string> Intersection::autresRoutes(Chemin* ariver ) {
 
     vector<string> routes ;
     for (Chemin* vsn : sorties) {
         if (vsn != nullptr) {
-            if (vsn->getRoute() != rte) {
+            if (vsn != ariver && vsn->getRoute() != ariver->getRoute() ) {
                 routes.push_back(vsn->getRoute()) ;
+            }else if (vsn != ariver) {
+                routes.push_back(ariver->getRoute()+" suite") ;
             }
         }
     }
