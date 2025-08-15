@@ -73,6 +73,8 @@ toi qui lis ca si c pas deja fait
 fait un constructeur d'Intersection qui se base sur un chemin 
 pour une promotion en gros
 
+aussi il me faut une fonction dans le classe chemin qui change sa position 
+
 -- IDEES FONCIONNEMENT :
 
 je pense faire un genre de classe route ou qqc comme ca c'est plus ou moins une liste de chemins 
@@ -81,4 +83,12 @@ et donc l'idee en gros c que dans la classe du plateau plutot que d'avoir des ce
 
 la classe plato aura quand mem pour role de traiter les cas de placement de chemin 
 par exmple quand on place un chemin entre deux autres il faut faire le lien et creer une route dessus si yen a oas deja une 
+
+je sais c pas pour mtn mais je pensai au event qui peuvent se produire sur telle ou telle case et je pense du coup 
+un truc opti et pratique c mettre un objet de type evenements dans les attributs de la classe case et d'y faire apel dans differentes situations
+la classe event serai atroce mais ca simplifierai un peu les choses pour les autre classes 
+
+
+
+
 
