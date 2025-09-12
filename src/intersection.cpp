@@ -65,5 +65,16 @@ string Intersection::ptitDescrip() {
 
 }
 
+Intersection::Intersection(Chemin& promu,Chemin* sort[4] ) : Chemin(promu) {
 
+    nom = "Intersection des routes : " ;
+    for (int i = 0; i < 4 ; i++  ) {
+        sorties[i] = sort[i] ;
+        if (sort[i] != nullptr) {
+            nom += sort[i]->getRoute()+ " " ;
+        }
+    }
+
+
+}
 

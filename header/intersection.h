@@ -20,6 +20,8 @@ public :
 
     }
 
+    // le consructeur qui transforme un chemin en intersection 
+    Intersection(Chemin& promu, Chemin* sort[4])  ;
 
     // on va prendre le chemin duquel on arrive pour pas le proposer 
     // si on vient pas d'un chemin on met un nullptr 

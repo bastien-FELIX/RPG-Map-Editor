@@ -21,7 +21,8 @@ protected :
     // si X est a -1 on peut le prendre comme plusieurs cas de figure :
     // le premier c que le chemin est seul et l'autre c ... g oublier
 
-
+    
+    string decrisVois() ;
  
 public:
 
@@ -39,6 +40,8 @@ public:
 
     bool ajoutVoisin(string newRoute, char vois1) ;
     string getRoute() {return route ;}
+    Chemin(Chemin& org) ;
+
 
 
 };

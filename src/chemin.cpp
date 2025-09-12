@@ -16,7 +16,7 @@ Chemin::Chemin(){
 Chemin::Chemin (string nomRoute, int posRoute,char vois1 , char vois2) {
 
     route = nomRoute ;
-    nom = "cheminn N°" + posRoute ;
+    nom = "cheminn N°" + posRoute ; 
     nom +=  " de la route : " +route ;
 
     if (vois1 == 'N' || vois2 == 'N') { voisin[0] = true ; }else {voisin[0] = false; }
@@ -24,13 +24,17 @@ Chemin::Chemin (string nomRoute, int posRoute,char vois1 , char vois2) {
     if (vois1 == 'E' || vois2 == 'E') { voisin[2] = true ; }else {voisin[2] = false; }
     if (vois1 == 'O' || vois2 == 'O') { voisin[3] = true ; }else {voisin[3] = false; }
 
-    description = "un chemin de la route "+ route ;
+    description = nom + decrisVois();
 
 }
 
-
 string Chemin::ptitDescrip() {
-    string voiVoisins = "chemin avec des voisins : ";
+    return description ;    
+}
+
+
+string Chemin::decrisVois() {
+    string voiVoisins = " avec des voisins : ";
     bool vsn ;
 
     if (voisin[0]) {
@@ -109,4 +113,16 @@ string Chemin::getVoisin () {
     return value ;
 }
 
+
+Chemin::Chemin (Chemin& org) {
+
+    route = org.route ;
+    nom = org.nom ;
+    for (int i = 0; i < 4 ; i++) {
+        this->voisin[i] = org.voisin[i] ;
+    }
+
+    description = org.description ;
+
+}
 

@@ -75,6 +75,15 @@ pour une promotion en gros
 
 aussi il me faut une fonction dans le classe chemin qui change sa position 
 
+(moi apres rentrer en cours de MSI (le 12))
+
+ptn enculer tu fout quoiii lac de la merde
+la descrip decris moin que le nom et la fonction de descrip c ce qu'il manque au nom pour faire la descrip tu abuse pas un peu ??????!!!!!!!
+EN PLUS DUCON LA PTITE DESCRIP ELLE UTILISE MEME PAS LA DESCRIPTION grosse merde
+
+les num de chemin marchent pas
+
+
 -- IDEES FONCIONNEMENT :
 
 je pense faire un genre de classe route ou qqc comme ca c'est plus ou moins une liste de chemins 
